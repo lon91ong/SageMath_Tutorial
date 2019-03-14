@@ -1,0 +1,166 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Sage入门教程</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="简介" href="introduction.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px;">
+          <A title="简介" accesskey="N"
+             href="introduction.html">next</a></li>
+        <li class="nav-item nav-item-0"><A href="#">SageTutorial 8.6 documentation</a> »</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="sage">
+<h1>Sage入门教程<A title="Permalink to this headline" class ="headerlink" href="#sage" >¶</a></h1>
+<p>Sage是免费、开源的数学软件，可用于代数、几何、数论、密码学、数值计算以及其他相关领域的教学和科研。Sage的开发模型和所用到的技术强调开放、社区、合作以及协同工作：
+我们是造汽车，而不是重新发明轮子。Sage的总体目标是成为一个实用的、免费的、开源的数学软件以代替
+Maple，Mathematica，Magma和MATLAB。</p>
+<p>本教程是在几个小时内熟悉Sage最好的办法。
+你可以阅读HTML或者PDF版本，或者在Sage notebook中（点击 <code class="docutils literal notranslate"><span class="pre">Help</span></code>，再点击 <code class="docutils literal notranslate"><span class="pre">Tutorial</span></code>）边阅读边使用。</p>
+<p>本文档基于 <a class="reference external" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License</a> 协议发布。</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><A class="reference internal" href="introduction.html">简介</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="introduction.html#id4">安装</a></li>
+<li class="toctree-l2"><A class="reference internal" href="introduction.html#id7">使用Sage的方法</a></li>
+<li class="toctree-l2"><A class="reference internal" href="introduction.html#id8">Sage的长期目标</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="tour.html">导览</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="tour_assignment.html">赋值，等式和算术运算</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_help.html">获取帮助</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_help.html#section-functions">函数，缩进和计数</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_algebra.html">基本的代数和微积分</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_plotting.html">绘图</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_functions.html">函数的一些常见问题</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_rings.html">基本的环</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_linalg.html">线性代数</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_polynomial.html">多项式</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_groups.html">有限群，阿贝尔群</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_numtheory.html">数论</a></li>
+<li class="toctree-l2"><A class="reference internal" href="tour_advanced.html">数学问题进阶</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="interactive_shell.html">交互命令行</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#sage-session">你的Sage会话(session)</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#id2">记录输入和输出</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#id3">粘贴忽略提示符</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#id4">查看命令执行的时间</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#id5">错误和异常</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#tab">反向查找和Tab补全</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#id7">集成帮助系统</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#id8">保存和读取个人的对象</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#section-save">保存和读取完整的会话</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interactive_shell.html#notebook">Notebook界面</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="interfaces.html">接口</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="interfaces.html#gp-pari">GP/PARI</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interfaces.html#gap">GAP</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interfaces.html#singular">Singular</a></li>
+<li class="toctree-l2"><A class="reference internal" href="interfaces.html#maxima">Maxima</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="programming.html">编程</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#sage">读取和附加Sage文件</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#section-compile">创建编译代码</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#python-sage">独立的Python/Sage脚本</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#id5">数据类型</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#id6">列表，元素和序列</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#id8">字典</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#id9">集合</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#id10">迭代器</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#id12">循环，函数，控制语句和比较</a></li>
+<li class="toctree-l2"><A class="reference internal" href="programming.html#id13">性能分析</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="distributed.html">分布式计算</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="distributed.html#id2">概要</a></li>
+<li class="toctree-l2"><A class="reference internal" href="distributed.html#id3">快速入门</a></li>
+<li class="toctree-l2"><A class="reference internal" href="distributed.html#id8">文件</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="afterword.html">后记</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="afterword.html#python">为什么选择Python?</a></li>
+<li class="toctree-l2"><A class="reference internal" href="afterword.html#id5">我想做点贡献。怎么做？</a></li>
+<li class="toctree-l2"><A class="reference internal" href="afterword.html#sage">如何引用Sage？</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="appendix.html">附录</a><ul>
+<li class="toctree-l2"><A class="reference internal" href="appendix.html#section-precedence">二元数学运算符优先级</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><A class="reference internal" href="bibliography.html">参考文献</a></li>
+</ul>
+</div>
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><A href="#">Table Of Contents</a></h3>
+<ul>
+<li class="toctree-l1"><A class="reference internal" href="introduction.html">简介</a></li>
+<li class="toctree-l1"><A class="reference internal" href="tour.html">导览</a></li>
+<li class="toctree-l1"><A class="reference internal" href="interactive_shell.html">交互命令行</a></li>
+<li class="toctree-l1"><A class="reference internal" href="interfaces.html">接口</a></li>
+<li class="toctree-l1"><A class="reference internal" href="programming.html">编程</a></li>
+<li class="toctree-l1"><A class="reference internal" href="distributed.html">分布式计算</a></li>
+<li class="toctree-l1"><A class="reference internal" href="afterword.html">后记</a></li>
+<li class="toctree-l1"><A class="reference internal" href="appendix.html">附录</a></li>
+<li class="toctree-l1"><A class="reference internal" href="bibliography.html">参考文献</a></li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><A title="next&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;
+                        chapter" href="introduction.html" >简介</a></p>
+  <h4>其它有用参考</h4>
+<p class="topless"> <a class="reference external" href="http://doc.sagemath.org/html/en/reference/py-modindex.html" 
+  target="_blank">模块索引</a></p>
+<p class="topless"> <a class="reference external" href="http://doc.sagemath.org/html/en/constructions/" 
+  target="_blank">构造手册</a></p>
+<p class="topless"> <a class="reference external" href="http://doc.sagemath.org/html/en/tutorial/index.html" 
+  target="_blank">Sage Tutorial Online </a></p>
+<p class="topless"> <A class="reference external" href="https://www.jianshu.com/p/11030ad97edd" target="_blank" >Windows下安装笔记</a></p>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px;">
+          <A title="简介" href="introduction.html"
+             >next</a></li>
+        <li class="nav-item nav-item-0"><A href="#">SageTutorial 8.6 documentation</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        © Copyright 2019, lon91ong.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>
