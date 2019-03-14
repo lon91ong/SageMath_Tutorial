@@ -4,4 +4,4 @@
 
 根据Sagemath v8.6做了少量修改
 
-[了解rst（reStructuredtext）文件格式](https://zh-sphinx-doc.readthedocs.io/en/latest/contents.html)
+了解[rst（reStructuredtext）文件格式](http://rtfd.zoomquiet.top/docs-py3_zh/build/html/documenting/index.html)
