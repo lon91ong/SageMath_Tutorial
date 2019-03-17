@@ -328,7 +328,7 @@ reStructuredText 使用指令（Directives)的方式来插入图片。指令（D
 
 渲染结果：
 
-.. image:: /images/nikola.png
+.. image:: https://github.com/macplay/macplay.github.io/blob/master/images/nikola.png
    :align: center
    :width: 236px
    :height: 100px
@@ -345,9 +345,9 @@ reStructuredText 使用指令（Directives)的方式来插入图片。指令（D
 
 渲染结果：
 
-.. figure:: /images/icarus.thumbnail.jpg
+.. figure:: https://github.com/macplay/macplay.github.io/blob/master/images/icarus.thumbnail.jpg
    :align: center
-   :target: /images/icarus.jpg
+   :target: https://github.com/macplay/macplay.github.io/blob/master/images/icarus.jpg
 
    *飞向太阳*
 
