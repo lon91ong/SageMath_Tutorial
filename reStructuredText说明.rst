@@ -42,7 +42,7 @@ reStructuredText 的最初目标是定义一种可被 Python 文档和其它格�
 
 reStructuredText 开箱支持转换为其它多种格式，其被设计为“Output-format-neutral（输出格式中性）”，即：并不会明确“偏袒”于哪种输出格式。
 
-.. figure:: /images/rst_outputs.png
+.. figure:: https://github.com/macplay/macplay.github.io/blob/master/images/rst_outputs.png
    :align: center
 
    *rst 转换为其它格式*
@@ -82,9 +82,8 @@ reStructuredText 开箱支持转换为其它多种格式，其被设计为“Out
 
 和 Markdown 一样，reStructuredText 段落是由一个或多个连续的文本行组成。它的前后应该有一个以上的空行。
 
-*如果你有首行缩进、强行断行、段落空行等需求，可以查看 reStructuredText 的 “ Line Blocks” 部分。[#]_*
+*如果你有首行缩进、强行断行、段落空行等需求，可以查看 reStructuredText 的 “ `Line Blocks <https://macplay.github.io/posts/cong-markdown-dao-restructuredtexter/>`_ ” 部分。[#]_*
 
-.. [#] `Line Blocks`: https://macplay.github.io/posts/cong-markdown-dao-restructuredtexter/
 
 标题
 ----
