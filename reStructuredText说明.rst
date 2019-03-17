@@ -84,7 +84,7 @@ reStructuredText 开箱支持转换为其它多种格式，其被设计为“Out
 
 *如果你有首行缩进、强行断行、段落空行等需求，可以查看 reStructuredText 的 “Line Blocks” 部分。* [#]_
 
-.. [#] <https://macplay.github.io/posts/cong-markdown-dao-restructuredtexter/> 
+.. [#] `Line Blocks使用参考 <https://macplay.github.io/posts/cong-markdown-dao-restructuredtexter/>`_ 
 
 
 标题
