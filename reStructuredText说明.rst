@@ -82,7 +82,7 @@ reStructuredText 开箱支持转换为其它多种格式，其被设计为“Out
 
 和 Markdown 一样，reStructuredText 段落是由一个或多个连续的文本行组成。它的前后应该有一个以上的空行。
 
-*如果你有首行缩进、强行断行、段落空行等需求，可以查看 reStructuredText 的 “ `Line Blocks <https://macplay.github.io/posts/cong-markdown-dao-restructuredtexter/>`_ ” 部分。[#]_*
+*如果你有首行缩进、强行断行、段落空行等需求，可以查看 reStructuredText 的 “ `Line Blocks <https://macplay.github.io/posts/cong-markdown-dao-restructuredtexter/>`_ ” 部分。*
 
 
 标题
