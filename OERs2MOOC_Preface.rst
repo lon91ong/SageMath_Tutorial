@@ -32,7 +32,7 @@ Sie Wai Chew，I-Ling Cheng和Nian-Shing Chen探讨了MOOCs开发和设计的可
 |
 **看点-MOOC**
 
-``J.`` Michael Spector介绍了MOOC概念，其起源，类型，目标和影响。然后他对MOOC进行了批判性的研究，指出他们实际缺乏什么，特别是从教学的角度来看，以及MOOCs的未来是什么。
+``J. Michael Spector`` 介绍了MOOC概念，其起源，类型，目标和影响。然后他对MOOC进行了批判性的研究，指出他们实际缺乏什么，特别是从教学的角度来看，以及MOOCs的未来是什么。
 
 |
 **看点-国内**
