@@ -64,6 +64,7 @@ Darco Jansen，Jon Rosewell和Karen Kear回顾了当前和新兴的MOOC质量保
 
 |
 **看点-链接**
+
 Nelson Piedra，Janneth Chicaiza，Jorge Lopez-Vargas，Javiera Atenas和Edmundo Tovar介绍了开放教育运动的发展以及使用链接数据方法来提高开放和免费访问材料的可发现性，可重用性和集成的潜力。他们专注于可重用性和共享开放许可教育资源的好处。
 
 |
