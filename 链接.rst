@@ -206,7 +206,7 @@ Selection of Data Sources
 最初的步骤是识别和选择Web中可用的OER存储库，然后使用Open Licenses提取元数据和教育资源。 Web上可用的OCW资源有大量非结构化数据，但只有人类可读的表示形式，即HTML（Piedra等，2014a，b，c）。大多数OCW网站没有用于数据消费的API。因此，从OCW网站自动重构基础数据的唯一其他选择是使用网络抓取技术。另一方面，OAI-PMH协议是用于收集与学术资源相关的元数据的模型的基础，其根据都柏林核心模式来定义。 Harvester2应用程序用于通过OAI-PMH收集元数据，即通过“list Records”动词。提取的元数据以三元组的形式存储在关系数据的数据库中。
 
 
-该目录可在https://datahub.io/es/dataset/serendipity上找到。数据源包括来自OER门户的教育资源，以及可提供OAI-PMH的开放存取库。
+该目录可在 <https://datahub.io/es/dataset/serendipity> 上找到。数据源包括来自OER门户的教育资源，以及可提供OAI-PMH的开放存取库。
 
 
 OER属性的示例包括资源的名称，其创建日期，摘要，关键字，有关创建者的信息，语言，开放许可信息，格式，MIME类型，预期研究持续时间，预期的困难级别等。另一方面，内容元数据对应于所设置的知识和技能的属性，例如学习目标，学习途径，指导。
@@ -255,7 +255,7 @@ Semantic Vocabularies for Describing OER
 RDFS词汇表和本体提供了以结构化方式组织Web信息的机制。网络内容可以由计算机以及人类理解。通过这种方式，本体和非生物资源的重新使用减少了该阶段的开发时间和相关成本，这也有助于本体的质量（Villazón-Terrazas 2011）。
 
 
-此外，在Piedra等人。 （2014a，b，c）作者描述了使用W3C的RDF技术的LOCWD RDFS词汇表，用于OER，目的是描述OCW域中的特定类型和资源类别。这个词汇被称为Linked OpenCourseWare Data（LOCWD）。 http://purl.org/locwd/schema上的RDF / XML格式也提供了一个机器友好的版本。 LOCWD是一个RDF（S）词汇表，致力于使用Web链接OER，开放许可证，OCW存储库和其他学术信息。不同类型的应用程序可以使用或忽略LOCWD的不同部分。通过LOCWD，OER / OCW计划可以以非专有格式保留对材料和课程信息的一些控制。
+此外，在Piedra等人。 （2014a，b，c）作者描述了使用W3C的RDF技术的LOCWD RDFS词汇表，用于OER，目的是描述OCW域中的特定类型和资源类别。这个词汇被称为Linked OpenCourseWare Data（LOCWD）。 <http://purl.org/locwd/schema> 上的RDF / XML格式也提供了一个机器友好的版本。 LOCWD是一个RDF（S）词汇表，致力于使用Web链接OER，开放许可证，OCW存储库和其他学术信息。不同类型的应用程序可以使用或忽略LOCWD的不同部分。通过LOCWD，OER / OCW计划可以以非专有格式保留对材料和课程信息的一些控制。
 
 
 LOCWD重用一组RDF（S）词汇表。每个词汇表包括一组特定知识域共有的术语和类。这些词汇表的目的是将描述的OER域与LOD云中的数据集连接起来。鉴于存在各种用于模拟书目资源的词汇表，我们的目的是选择那些促进Web上数据集成和互操作性的词汇表：
@@ -306,7 +306,7 @@ RDF Schema（RDFS）用于表示Web资源，SPARQL（RDF查询语言的标准协
 该提案有助于在每个OER供应商的流程中存在多种方法和标准。在Piedra等人。 （2015b），所描述的过程是为了发布从支持OAI-PMH的开放和分布式数字存储库中提取的元数据 - 用于交换和收集元数据。因此，OER链接数据可通过服务或公共查询库访问。通过这种方式，可以处理，重用，组合，集成数据并将其用于多种目的。特别是，教师，从业者和学生可以发现，交换和轻松访问开放的教育材料。通过实施推荐的三种使用场景来定义该方法的优点。过滤方法基于通过W3C推荐的技术对OER数据的查询。
 
 
-Usage scenario 1,2,3 略...
+**Usage scenario 1,2,3** 略...
 
 
 如表15.1所示，过去不能使用语义过滤。此外，RDF和OWL的使用实现了实体的可视化表示，以及它们的属性和关系。此功能为用户提供了一个友好的环境，以表达他/她的信息需求。
