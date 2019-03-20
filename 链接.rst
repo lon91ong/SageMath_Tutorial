@@ -189,3 +189,126 @@ Berners-Lee（2006）概述的关联数据设计问题提供了如何使用标�
 如前所述，关联数据旨在链接来自不同来源的数据，以便产生关于某个主题的更广泛的知识。例如，通过识别所请求的信息开始搜索;然后，搜索引擎搜索页面的内容。如果所有这些数据都是相关的，那么很容易从一个站点“跳过”到另一个站点，直到我们找到我们正在寻找的内容。在Piedra等人。 （2014a），作者应用关联数据设计问题来探索，可视化和使用可通过开放教育联盟访问的与OER语义相关的信息。关联数据有可能在OER数据孤岛之间建立桥梁。从不同的开放存储库获得的OER数据被清理，消除歧义并形式化，以便根据关联数据设计问题和使用LOCWD / LOERD词汇表进行后续处理。在这项工作中，作者证明了在OER存储库中使用链接数据方法为其演变为更具互操作性和集成的系统提供了框架，用于共享，连接和发现OER计划的资源，数据和元数据。此外，可以使用链接开放数据云托管的数据集来丰富OER资源元数据。此外，本研究提倡使用关联数据技术作为下一代OER开发的推动者，允许语义与语法分离，可发现性和访问的改进以及常用词汇表的使用。此外，Linked OER数据环境使我们能够发现教育资源（Piedra等人，2014c），并展示数据可视化（Piedra等人，2014b）。
 
 
+Open Educational Resources Linked Data Life Cycle
+////////////////////////////////////////////////////////////
+
+与互联网如何工作的方式相同，OER运动作为灵活的分布式异构数据源网络（内容，技术，存储和结构），互操作将促进访问和各种信息的混合。在本节中，我们将介绍生成，发布和使用OER关联数据的建议。拟议的生命周期基于Piedra等人提出的指导原则。 （2014A）。我们已经扩展并调整了此提案，以涵盖OER存储库，资源以及数据功能和需求。通过提出的Serendipity Semantic Framework确保了不同资源和存储库的互操作性（见图15.1）。
+
+
+语义体系结构指的是将OER与不同存储库集成和互操作的策略和技术。这些组件包括不同的数据收集机制，例如使用OAI-PMH协议的OER收集，OER门户以及对最终用户至关重要的其他开放存取存储库。作为架构的重要组成部分，该项目将制作工具，以浏览可用于进入平台的不同类型用户的内容。
+
+Selection of Data Sources
+`````````````````````````````````````````````
+
+迄今为止，大多数OER数据都收集在异构和分布式存储库中，例如OER Commons，OCW计划，Merlot和其他OER存储库，其中使用不同的元数据机制（例如，IEEE LOM，ADL SCORM，自定义元数据模式）对数据进行注释。 ，通过临时机制，单个Web API /服务或其他机制（例如，OAI-PMH）检索;但是，这些技术是有限的，因为数据无法解除引用。
+
+
+最初的步骤是识别和选择Web中可用的OER存储库，然后使用Open Licenses提取元数据和教育资源。 Web上可用的OCW资源有大量非结构化数据，但只有人类可读的表示形式，即HTML（Piedra等，2014a，b，c）。大多数OCW网站没有用于数据消费的API。因此，从OCW网站自动重构基础数据的唯一其他选择是使用网络抓取技术。另一方面，OAI-PMH协议是用于收集与学术资源相关的元数据的模型的基础，其根据都柏林核心模式来定义。 Harvester2应用程序用于通过OAI-PMH收集元数据，即通过“list Records”动词。提取的元数据以三元组的形式存储在关系数据的数据库中。
+
+
+该目录可在https://datahub.io/es/dataset/serendipity上找到。数据源包括来自OER门户的教育资源，以及可提供OAI-PMH的开放存取库。
+
+
+OER属性的示例包括资源的名称，其创建日期，摘要，关键字，有关创建者的信息，语言，开放许可信息，格式，MIME类型，预期研究持续时间，预期的困难级别等。另一方面，内容元数据对应于所设置的知识和技能的属性，例如学习目标，学习途径，指导。
+
+
+识别适当的数据源以回答OER用户问题具有挑战性。虽然现有OER存储库的广泛可用性为回答教育用例提供了机会，而没有与主要元数据收集相关的高额费用，但必须谨慎选择OER提供商以确保其能够解决用例问题;它拥有足够数量的数字资源;关键元数据可用;有足够的混乱控制，并且有足够的后续跟进时间。
+
+URIs for Open Educational Resources
+`````````````````````````````````````````````````````````````````
+
+在数据网络中，URI是一个单一的全局标识系统。有一些为RDF资源定义URI的指南。但是，在地理空间数据的背景下，我们必须考虑一些特定的特征。 OER运动，作为一个社区，我们仍然需要就如何为OER定义URI，特别是作者，OER类型，组织，联盟和主题达成共识。
+
+
+在这项工作中推广的“互操作性”概念是根据以相同格式访问数据的常用方式构思的，即使这些数据属于异构存储库。考虑到不同的识别方案永远不会相互通信，这种方法提供了可互操作的框架，本体/词汇表和持久性标识符，它们通过使用现有的标识符来支持互操作性，持久访问，重用和信息交换。跨不同系统，位置和服务的文件和关联对象。
+
+
+基本思想是，一个共同的概念表示是设计增值互操作性服务的主要条件，它可以利用在可信系统之间商定和共享的表示方案的价值，以促进数字对象的交换，重用和集成。由不同的持久性标识符在这些系统中识别。
+
+
+随着元数据交换的不断增加，不同的识别系统将在存储库生态系统中发生冲突。任何类型的附加持久标识符对于链接和获取更多上下文信息都很有用（COAR 2015）。在这种方法中，标识符是URI（统一资源标识符.URI是用于标识资源名称的字符串。这种标识允许通过网络（通常是世界）与资源的表示进行交互。 Wide Web，使用特定协议。指定具体语法和相关协议的方案定义每个URI。最常见的URI形式是统一资源定位器（URL），经常被非正式地称为Web地址。在使用中更少见的是统一资源名称（URN），其旨在通过提供用于识别特定名称空间中的资源的机制来补充URL。
+
+
+通用URI和绝对URI引用的语法首先在1998年8月发布的Request for Comments（RFC）2396中定义，并在2005年1月发布的RFC 3986中定义。从这个意义上说，UIR分辨率是使系统能够在Web上定位和访问与其相关的识别对象或信息的关键机制。解析URI意味着将相对URI引用转换为绝对形式，或者通过尝试获取它所标识的资源的表示来取消引用URI或URI引用。文档处理软件中的“解析器”组件通常提供这两种服务。可以将URI引用视为相同的文档引用：对包含URI引用本身的文档的引用。文档处理软件可以有效地使用其当前的文档表示来满足相同文档引用的分辨率而无需获取新的表示。
+
+
+为此设计了两种类型的URI：一种用于识别词汇表的组成部分（类，属性和关系），另一种用于描述书目材料。为了描述这些材料，我们使用了HTTP URI--从而考虑了Tim Berners-Lee提出的数据发布原则，这些原则是根据以下模式完成的：
+
+  • Pre ﬁ x: oar-utpl
+  • URI base: http://data.utpl.edu.ec/serendipity/oar/
+  • Schema: http://data.utpl.edu.ec/serendipity/oar/schema#
+  • Resources: http://data.utpl.edu.ec/serendipity/oar/resource/
+  • Properties: http://data.utpl.edu.ec/serendipity/oar/property/
+  • Categories: http://data.utpl.edu.ec/serendipity/oar/category/
+  • Graph: http://data.utpl.edu.ec/serendipity/oar
+  • SPARQL endpoint: http://data.utpl.edu.ec/serendipity/oar/sparql.
+
+Semantic Vocabularies for Describing OER
+```````````````````````````````````````````````````````````````````````
+
+在这个阶段，映射关系与其他词汇表建立。图15.2说明了Dublin Core和用于描述OER的词汇表设计之间的等效元数据之间的连接。
+
+
+使用本体和非物理资源对于提高Linked Open Data上下文中的互操作性水平至关重要。
+
+
+RDFS词汇表和本体提供了以结构化方式组织Web信息的机制。网络内容可以由计算机以及人类理解。通过这种方式，本体和非生物资源的重新使用减少了该阶段的开发时间和相关成本，这也有助于本体的质量（Villazón-Terrazas 2011）。
+
+
+此外，在Piedra等人。 （2014a，b，c）作者描述了使用W3C的RDF技术的LOCWD RDFS词汇表，用于OER，目的是描述OCW域中的特定类型和资源类别。这个词汇被称为Linked OpenCourseWare Data（LOCWD）。 http://purl.org/locwd/schema上的RDF / XML格式也提供了一个机器友好的版本。 LOCWD是一个RDF（S）词汇表，致力于使用Web链接OER，开放许可证，OCW存储库和其他学术信息。不同类型的应用程序可以使用或忽略LOCWD的不同部分。通过LOCWD，OER / OCW计划可以以非专有格式保留对材料和课程信息的一些控制。
+
+
+LOCWD重用一组RDF（S）词汇表。每个词汇表包括一组特定知识域共有的术语和类。这些词汇表的目的是将描述的OER域与LOD云中的数据集连接起来。鉴于存在各种用于模拟书目资源的词汇表，我们的目的是选择那些促进Web上数据集成和互操作性的词汇表：
+
+  • RDF Schema and OWL are used to describe concepts of the vocabulary.
+  • Simple Knowledge Organization System (SKOS) to establish a model for the organization of knowledge, taxonomies, and other thematic hierarchies. The SKOS vocabulary was used to represent concepts or themes that were dealt with by the resource.
+  • DCAT was designed to facilitate interoperability between catalogs of data published on the Web.
+  • FOAF was developed to represent persons and organizations, as well as their attributes and relationships with other concepts.
+  • Dublin Core (DC) provides a vocabulary of “ base ” characteristics which are capable of providing descriptive information about any resource.
+  • Dublin Core Metadata Initiative (DCMI) Metadata Terms is used to represent documents, as well as its attributes such as the title, creator, and relations with other entities.
+  • Bibliographical Ontology Speci ﬁ cation (BIBO) provides the main concepts and properties for describing citations and bibliographical references.
+  • VIVO helps describe various concepts in the academic and scienti ﬁ c ﬁ elds.
+  • Open Provenance Model Vocabulary is used to describe the origin of data on the Web.
+  • Schema help describe concepts such as materials, data properties, and relations between classes.
+
+Data Cleaning and Linking
+```````````````````````````````````````````
+
+执行数据清理的目的是检测和纠正损坏或错误的数据。该过程包括分析数据中的不一致模式以及执行清理模式。已检测到的病例包括某些元数据格式的变化。最后，主题（dc：subject）消除了模糊性问题，并被添加到每个数字资源中。基于检测到的图案的清洁实施半自动校正方案。主要任务：
+
+ • Cleaning of generated data. These are activities that aim to reduce ambiguity and to purge the information that is extracted and generated during the process of conversion.
+• Linkage of data by means of semantic relations (countries, bodies, concepts) with existing sources. In this way, we can establish linkages between a series of open data and contribute to its integration on a global scale and create the network effect.
+
+Generation and Publication of Linked Data
+``````````````````````````````````````````````````````````````````````
+
+RDF是域独立的。 RDF编码使机器能够对位于资源中的内容和元数据进行分类，用于执行此操作。 RDF本质上是一种数据模型，可用于以机器可访问和可处理的格式表示信息，这是语义Web愿景的两个关键要素。
+
+
+RDF的关键概念是资源，属性和句子。资源是我们想要表达的东西（真实的或抽象的东西）。每个资源都有一个URI（统一资源标识符）。重要的是要记住，标识符不一定能够访问资源。属性是一种特殊类型的资源，其功能是描述资源之间的关系。属性还使用URI作为标识符。使用URI标识资源和属性可构建唯一名称的全局和分布式模式。
+
+
+RDF基于以主题 - 谓词 - 对象表达式的形式对资源（特别是Web资源）进行声明的想法。这些表达式在RDF术语中称为三元组。主题表示资源，谓词表示资源的特征或方面，并表示主题和对象之间的关系。 URI用于标识这些资源。
+
+
+RDF Schema（RDFS）用于表示Web资源，SPARQL（RDF查询语言的标准协议）用于从RDF图中提取信息，以便进行机器可理解的表示。
+
+
+从标准，开放和可互操作的格式中提取的转换数据可以以便于访问和重用的方式完成，并且解决了限制于存储设备的数字资源的问题。
+
+
+为了从收获的OER元数据创建RDF，基于Jena开发了自定义生成器。生成RDF数据的过程中的一个重要阶段是将URI分配给提取的文本。从这个意义上讲，OER元数据使用最合适的术语来映射。这使资源可以互操作并与其他数据系列集成。
+
+
+创建并存储RDF数据后，我们可以选择Web界面或应用程序以清晰的格式显示数据。但是，有些工具可以连接到RDF存储库，并可以显示恢复的数据，如网页或图形模式。以表格形式显示RDF数据的最流行的工具之一是Pubby，它是公认的三元组存储库使用的Java应用程序。通过W3C提出的标准技术在Web上发布数据改善了这些资源的可访问性，可用性和集成性。
+
+
+该提案有助于在每个OER供应商的流程中存在多种方法和标准。在Piedra等人。 （2015b），所描述的过程是为了发布从支持OAI-PMH的开放和分布式数字存储库中提取的元数据 - 用于交换和收集元数据。因此，OER链接数据可通过服务或公共查询库访问。通过这种方式，可以处理，重用，组合，集成数据并将其用于多种目的。特别是，教师，从业者和学生可以发现，交换和轻松访问开放的教育材料。通过实施推荐的三种使用场景来定义该方法的优点。过滤方法基于通过W3C推荐的技术对OER数据的查询。
+
+
+Usage scenario 1,2,3 略...
+
+
+如表15.1所示，过去不能使用语义过滤。此外，RDF和OWL的使用实现了实体的可视化表示，以及它们的属性和关系。此功能为用户提供了一个友好的环境，以表达他/她的信息需求。
+
+
