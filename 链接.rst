@@ -121,3 +121,68 @@ Downes（2011）将OER定义为“用于支持可以免费访问，重用，修�
 Quality Education and Lifelong Learning with OER
 //////////////////////////////////////////////////////////
 
+略
+
+Enhance the Reusability of OER
+----------------------------------------
+
+开放式教育数字资料和资料库以丰富多样的类型和表现形式出现。它们链接到用于创建或管理它们的特定应用程序包。他们很容易被误导。它们通常描述不当或没有注释;他们通常没有足够的元数据来避免他们逐渐容易失去价值。 OER不仅需要收集和存储，而且还需要有用和可见，这个过程需要大量的人力工作，即使重型自动化可以帮助完成这一过程。
+
+
+OER的可重用性是关于保持教育材料及其内容的语义含义，保持其出处和质量，保持其相互关联性，以及保护其创建，使用，再利用和适应的背景信息以及权利。语义表示和用于描述OER的数据。
+
+
+重用是将资源用于其他目的，通常用于原始创建者无意识的目的。因此，OER的创建者应该考虑他们希望他们的OER开放的程度，并相应地许可资源。除了许可之外，还有技术方面使OER适合新的用途或目的，更容易发现，适应和重新混合，从而影响OER的开放程度。这意味着适应，调整，修改或改变内容本身的权利。
+
+
+Enhance the Discoverability of OER
+----------------------------------------------
+
+OER的设计应易于适应其他用户。它应该具有足够的元数据以便发现。 OER可重用性意味着内容与用户的特定需求相关，这些需求在技术上是可访问的，并且足够开放以供使用，重用，重新混合，适应和重新分发。
+
+
+数字资源的开放性是尽可能公开的。仅仅拥有政府，财团，组织或个人采纳或提出的开放行动政策或原则是不够的。 OER计划旨在尽可能地理解，可重复使用，适应性强，可检查。因此，OER的主要好处之一是它可以被发现并适应特定情况的需要。
+大多数OER存储库都是根据知识共享许可证获得许可的。使用开放许可证可以帮助用户发现他们知道可以使用，重用，适应和重新分发的材料。不同的研究强调了困难，发现OER以及这对它们的使用有何影响。在White和Manton（2011）中，影响OER位置的一些原因得到了识别：搜索引擎和存储库的技术问题，实用搜索技能以及不同主题领域的可用资源量。此外，作者还确定了影响数字材料重用决策的三个因素：提高质量，满足教学需求和同行建议。虽然可发现性可能是重用的主要障碍，但导师仍然期望在线找到有用的资料，并准备花时间搜索它们。
+
+
+Breaking Down OER SILOS
+=========================
+
+The Semantic Web Is a Web of Data
+----------------------------------------------
+
+2001年5月，Web的创建者（Abrams 1998）的Tim Berners-Lee，Jim Hendler和Ora Lassilla宣布了语义Web，他们将其归类为可机器处理的数据Web：“语义Web不是一个单独的Web但是现有的延伸，其中信息被赋予了明确的意义，使计算机和人们能够更好地合作“（Berners-Lee et al.2001）。
+
+
+W3C还指出语义Web是一种数据Web。这些数据可能有各种格式，语言，样式和结构。这种语义Web方法与Berners-Lee在20世纪80年代后期提出的Web原始视图一致，其中信息的含义起着关键作用，信息存储在全球分布式数据链接数据库中通过网络（Berners-Lee 1989）。与当前的链接文档Web不同，链接数据Web能够描述数据模型，概念和属性，然后在Web上进行连接，查阅和组合，就好像它们只是全局数据库的一部分一样。
+
+
+这种方法的主要贡献在于，链接数据Web构成了当前Web向全球信息空间的演变，其中浏览由结构化和链接数据驱动，而不是像现在这样由文档驱动。因此，我们认为这些进步是支持OER等数据类型的互操作性，可访问性和可重用性的可能方法。关联数据的目标是使人类能够轻松地通过网络共享结构化数据，就像他们现在共享文档一样（Bizer等人，2007）。关联数据的哲学是数据的价值和有用性与其与其他数据的联系成比例增加。在此基础上，Linked Data使用Web在不同来源的数据之间创建不同类型的链接（Heath和Bizer 2011）。根据Web的这一愿景，数据及其关系起着关键作用。基于关联数据原则的数据源的可用性有助于产生利用人工智能技术的新机会，这些技术侧重于机器学习，知识表示，信息提取，信息集成和多代理环境。
+
+
+最近，政府，学术界，工业界以及独立团体和个人在网络上发布了数百万条RDF数据。 RDF是一种通用语言，用于在Web上表示和发布结构化数据。 HTML文档中描述的数据现在以RDF语言表示。在具有RDF中描述的数据的Web中，机器代理将能够更有效地处理和解释数据。软件代理可以利用，即自动收集，汇总，解释，发布和混搭这些数据等。
+
+
+Foundations of Linked Data
+-------------------------------------
+
+语义Web技术，更准确地说，关联数据正在改变信息的存储，发布和利用方式。术语“关联数据”是指在Web上发布和连接结构化数据的一组最佳实践（Berners-Lee et al.2001）。关联数据为数据使用者提供了合并分布在不同数据集中的数据的机会（Heath和Bizer 2011）。
+
+
+关联数据主要是关于使用URI在RDF中发布结构化数据，而不是关注本体级别或推理。从这个意义上讲，OER提供的关联数据（Linked OER Data）支持开放教育材料的发现，重用，集成和互操作性过程。
+W3C的语义Web提供了一个通用框架，即资源描述框架（RDF），用于描述Web上的资源。使用RDF，自动化软件可以存储，交换和使用分布在整个Web上的机器可读信息，从而使用户能够以更高的效率和确定性处理信息;此外，RDF数据可以通过应用程序，企业和社区边界共享和重用。
+
+
+Berners-Lee（2006）概述的关联数据设计问题提供了如何使用标准化Web技术在不同来源的数据之间建立数据级链接的指南（Heath和Bizer 2011）。关联数据是降低OER重用复杂性的机会。链接的OER数据环境使我们能够发现和重用开放式教育材料。在OER环境中，这些关联数据设计问题包括：
+
+  1. Use URIs as names for things, which can be unambiguously identi ﬁ ed (e.g., OERs, coursewares, OER creators, OCW providers, knowledge areas, learning paths, and other concepts).
+
+  2. Use HTTP URIs so that people can look up those names. With the aid of URIs, the corresponding OER data and relevant interlinked data can be dereferenced.
+
+  3. When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL) to describe linked OER data, which are machine-readable and repurposed to serve the proposed architecture to enhance integration with reused and interoperated OER data.
+
+  4. Include links to other URIs, so that they can discover more entities. Linked Data — particularly data available using open licenses — has an important role to play on information systems and could be a key feature for Open Education based on OER data on the Web of Data.
+
+如前所述，关联数据旨在链接来自不同来源的数据，以便产生关于某个主题的更广泛的知识。例如，通过识别所请求的信息开始搜索;然后，搜索引擎搜索页面的内容。如果所有这些数据都是相关的，那么很容易从一个站点“跳过”到另一个站点，直到我们找到我们正在寻找的内容。在Piedra等人。 （2014a），作者应用关联数据设计问题来探索，可视化和使用可通过开放教育联盟访问的与OER语义相关的信息。关联数据有可能在OER数据孤岛之间建立桥梁。从不同的开放存储库获得的OER数据被清理，消除歧义并形式化，以便根据关联数据设计问题和使用LOCWD / LOERD词汇表进行后续处理。在这项工作中，作者证明了在OER存储库中使用链接数据方法为其演变为更具互操作性和集成的系统提供了框架，用于共享，连接和发现OER计划的资源，数据和元数据。此外，可以使用链接开放数据云托管的数据集来丰富OER资源元数据。此外，本研究提倡使用关联数据技术作为下一代OER开发的推动者，允许语义与语法分离，可发现性和访问的改进以及常用词汇表的使用。此外，Linked OER数据环境使我们能够发现教育资源（Piedra等人，2014c），并展示数据可视化（Piedra等人，2014b）。
+
+
